@@ -1,0 +1,89 @@
+/* EmployeeDateRange.css */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 15px;
+  background-color: #d5e5f33b;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgb(109, 152, 243);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 16px;
+  color: #333;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.date-picker {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.no-results-message {
+  color: #333;
+  font-size: 16px;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.employee-list {
+  margin-top: 20px;
+}
+
+.employee-list h3 {
+  font-size: 22px;
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+.employee-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.employee-list li {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.page-heading {
+  font-size: 28px; 
+  color: #003366; 
+  text-align: center; 
+  margin-bottom: 20px; 
+}

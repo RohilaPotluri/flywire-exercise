@@ -1,0 +1,72 @@
+/* EmployeeData.css */
+.employee-data-container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px;
+    margin-top: 15px;
+    background-color: #f5f7e9; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgb(139, 233, 127);
+}
+
+.employee-data-header {
+    font-size: 28px;
+    color: #003366;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.employee-data-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.employee-data-form label {
+    font-size: 16px;
+    color: #333;
+}
+
+.employee-data-form select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.employee-data-form button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.employee-data-form button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.employee-details {
+    margin-top: 20px;
+}
+
+.employee-details h2 {
+    font-size: 24px;
+    color: #003366;
+    margin-bottom: 15px;
+}
+
+.employee-details p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.employee-details strong {
+    color: #007bff;
+}

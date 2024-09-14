@@ -1,0 +1,63 @@
+/* DeactivateEmployee.css */
+.deactivate-employee-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 15px;
+    background-color: #eeb0b018;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(242, 106, 106);
+}
+
+.deactivate-employee-header {
+    font-size: 28px;
+    color: #003366;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.deactivate-employee-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.deactivate-employee-form label {
+    font-size: 16px;
+    color: #333;
+}
+
+.deactivate-employee-form select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.deactivate-employee-form button {
+    background-color: #dc3545;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.deactivate-employee-form button:hover {
+    background-color: #c82333;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.no-employees-message {
+    color: #ff4d4d;
+    font-size: 18px;
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ff4d4d;
+    border-radius: 4px;
+    background-color: #ffe6e6;
+    text-align: center;
+}
